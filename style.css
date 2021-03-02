@@ -10,9 +10,7 @@ section{
     color:rgba(132, 0, 255, 0.856);
 }
 
-p{
-    color: rgb(63, 39, 128);
-}
+
 
 .secondary-heading {
     color: rgb(77, 34, 94);
@@ -21,8 +19,6 @@ p{
 .special-heading {
     color: rgb(0, 202, 192);
 }
-
-
 
 
 #top {
