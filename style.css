@@ -1,0 +1,43 @@
+body{
+    background: lightgray;
+}
+
+section{
+    background: white;
+}
+
+.main-heading {
+    color:rgba(132, 0, 255, 0.856);
+}
+
+p{
+    color: rgb(63, 39, 128);
+}
+
+.secondary-heading {
+    color: rgb(77, 34, 94);
+}
+
+.special-heading {
+    color: rgb(0, 202, 192);
+}
+
+
+
+
+#top {
+    background: #59c97d;
+}
+
+a {
+    color: #e49102;
+}
+
+nav a {
+    color: #04ac26;
+}
+
+.header {
+    background: yellow;
+}
+
