@@ -1,15 +1,58 @@
 body{
-    background: darkgrey;
+    background: #37393A;
 }
 
-.tittle {
-    color: darkred;
+.navigation {
+    margin: 10px;
+    padding: 10px;
+    background: #588B8B;
+    display: inline-block;
+    border: darkred solid 2px;
+    
+
 }
 
-.maineTarget {
-    color: green;
+.navigation__link {
+    margin-right: 2px;
+    padding: 2px;
+    background: #DB4C40;
+    color: black;
+    
 }
 
-.describe {
-    color: indigo;
+.header {
+    margin: 5px;
+}
+
+.header__tittle {
+    color: #90BE6D;
+}
+
+.section {
+background: #A1B5D8;
+padding: 10px;
+border: solid red 2px;
+margin-bottom: 10px;
+}
+
+.section__image{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.section__image--marcin{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.section__tittle {
+    color: #4D9078;
+}
+
+.section__description {
+    color: #AF5D63;
 }

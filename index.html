@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcin Gruszczyk - Strona głowna</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zadanie domowe</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona głowna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="nauka-js.html">Nauka JS</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--main" href="index.html"
+          >Strona głowna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
+      </nav>
     </header>
 
     <main>
-        <header id="top">
-            <h1 class="tittle">Marcin Gruszczyk - Strona domowa</h1>
-        </header>
-        <section>
-            <h2 class="maineTarget">Jaki jest cel?</h2>
-            <p class="describe">Zadanie domowe z kursu WTF Co ten frontedn?</p>
-       
-
-
+      <header class="header" id="top">
+        <h1 class="header__tittle">Marcin Gruszczyk - Strona domowa</h1>
+      </header>
+      <section class="section">
+        <img
+          class="section__image section__image--marcin"
+          src="IMG_0014.jpg"
+          alt="Moje zdjęcie"
+        />
+        <h2 class="section__tittle">Kim jestem?</h2>
+        <p class="section__description">
+          Jestem Marcin i mam 25 lat. Lubię programować, podrżować i
+          fascynuję się wyścigami. Projekt tej strony powstał w oparciu o kurs
+          WTF Co ten Frontend? 
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="section__tittle">Test uzupełnienia treści przez JS</h2>
+        <p class="section__description section__description--javascript"></p>
+      </section>
     </main>
     <footer>
-        Strona Marcina Gruszczyka powstała w ramach szkolenia.
-        <a href="#top">Do góry strony</a>
+      Strona Marcina Gruszczyka powstała w ramach szkolenia.
+      <a href="#top">Do góry strony</a>
     </footer>
     <script src="maine.js"></script>
-</body>
-
+  </body>
 </html>

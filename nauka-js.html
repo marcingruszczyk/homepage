@@ -10,22 +10,23 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html">Strona głowna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="nauka-js.html">Nauka JS</a>
+        <nav class="navigation">
+          <a class="navigation__link navigation__link--main" href="index.html">Strona głowna</a>
+          <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+          <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+          <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
         </nav>
-    </header>
+      </header>
     <main>
 
-        <header id="top">
-            <h1 class="tittle">Nauka JavaScript</h1>
+        <header class="header" id="top">
+            <h1 class="header__tittle">Nauka JavaScript</h1>
         </header>
-        <img src="js-logo.jpg" alt="logo JS">
-        <section>
-            <h2 class="maineTarget">Co to jest JavaScript?</h2>
-            <p class="describe">JavaScript, w skrócie JS – skryptowy język programowania, stworzony przez firmę Netscape, najczęściej
+       
+        <section class="section">
+            <img class="section__image" src="js-logo.jpg" alt="logo JS">
+            <h2 class="section__tittle">Co to jest JavaScript?</h2>
+            <p class="section__description">JavaScript, w skrócie JS – skryptowy język programowania, stworzony przez firmę Netscape, najczęściej
                 stosowany na stronach internetowych. Twórcą JavaScriptu jest Brendan Eich[4]. W połowie lat 90. XX wieku
                 organizacja ECMA wydała na podstawie JavaScriptu standard języka skryptowego o nazwie ECMAScript,
                 aktualnie rozwijaniem tego standardu zajmuje się komisja TC39</p>
