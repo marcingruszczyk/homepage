@@ -17,7 +17,7 @@ body{
     padding: 2px;
     background: #DB4C40;
     color: black;
-    
+    text-decoration: none;
 }
 
 .header {
@@ -55,4 +55,9 @@ margin-bottom: 10px;
 
 .section__description {
     color: #AF5D63;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
