@@ -6,7 +6,6 @@ body{
     margin: 10px;
     padding: 10px;
     background: #588B8B;
-    display: inline-block;
     border: darkred solid 2px;
     
 
@@ -58,6 +57,11 @@ margin-bottom: 10px;
 }
 
 .main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer {
     max-width: 1000px;
     margin: 0 auto;
 }
